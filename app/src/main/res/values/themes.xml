@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.YourFriend" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/space_deep</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">@color/aurora_pink</item>
+        <item name="colorPrimary">@color/aurora_pink</item>
+        <item name="colorSecondary">@color/aurora_cyan</item>
+        <item name="colorSurface">@color/space_mid</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="28">shortEdges</item>
+    </style>
+
+    <style name="Theme.YourFriend" parent="Base.Theme.YourFriend" />
+</resources>

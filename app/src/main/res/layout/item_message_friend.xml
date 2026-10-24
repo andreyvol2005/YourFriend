@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingStart="2dp"
+    android:paddingTop="3dp"
+    android:paddingEnd="44dp"
+    android:paddingBottom="3dp">
+
+    <com.example.yourfriend.ui.AvatarOrbView
+        android:id="@+id/friendMiniAvatar"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="3dp" />
+
+    <LinearLayout
+        android:id="@+id/friendBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_bubble_friend"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/friendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:maxWidth="280dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/friendTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:alpha="0.46"
+            android:textColor="@color/text_primary"
+            android:textSize="9sp" />
+    </LinearLayout>
+</LinearLayout>

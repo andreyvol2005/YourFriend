@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">YourFriend</string>
+
+    <string name="onboarding_eyebrow">ТВОЙ ЛИЧНЫЙ КОСМОС</string>
+    <string name="onboarding_title">Кто-то ждёт\nтвоего сообщения</string>
+    <string name="onboarding_subtitle">Создай друга, который всегда рядом.</string>
+    <string name="onboarding_step_one">01 · ВЫБЕРИ ДРУГА</string>
+    <string name="onboarding_step_two">02 · ДАЙ ЕМУ ИМЯ</string>
+    <string name="onboarding_step_two_female">02 · ДАЙ ЕЙ ИМЯ</string>
+    <string name="onboarding_friend_female">Девушка</string>
+    <string name="onboarding_friend_male">Парень</string>
+    <string name="onboarding_friend_female_hint">мягкая и тёплая</string>
+    <string name="onboarding_friend_male_hint">спокойный и надёжный</string>
+    <string name="onboarding_name_hint">Например, Ая</string>
+    <string name="onboarding_name_suggestion">Или выбери готовое имя</string>
+    <string name="onboarding_next">Дальше</string>
+    <string name="onboarding_create">Создать друга</string>
+    <string name="onboarding_edit_later">Ты сможешь изменить это позже</string>
+
+    <string name="chat_online">онлайн</string>
+    <string name="chat_typing">печатает…</string>
+    <string name="chat_input_hint">Напиши сообщение…</string>
+    <string name="chat_send">Отправить</string>
+    <string name="chat_more">Ещё</string>
+    <string name="chat_back">Назад</string>
+    <string name="chat_reset">Начать заново</string>
+    <string name="chat_about">О приложении</string>
+    <string name="chat_reset_title">Начать заново?</string>
+    <string name="chat_reset_message">Друг и история сообщений будут удалены. Это действие нельзя отменить.</string>
+    <string name="chat_reset_confirm">Удалить</string>
+    <string name="chat_cancel">Отмена</string>
+    <string name="chat_about_title">YourFriend</string>
+    <string name="chat_about_message">Твой личный друг. Он бережно хранит переписку на этом устройстве и отвечает с помощью GigaChat. Для ответа сообщения отправляются в GigaChat. Он не заменяет живых людей и специалиста.</string>
+    <string name="chat_about_close">Закрыть</string>
+
+    <string name="suggestion_one">Как ты?</string>
+    <string name="suggestion_two">Расскажи о себе</string>
+    <string name="suggestion_three">Мне немного грустно</string>
+    <string name="chat_empty_title">Тук-тук…</string>
+    <string name="chat_empty_subtitle">Напиши первое сообщение — друг уже рядом.</string>
+</resources>

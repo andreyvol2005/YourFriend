@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="space_deep">#05030F</color>
+    <color name="space_mid">#0B0822</color>
+    <color name="space_high">#151033</color>
+
+    <color name="text_primary">#F7F3FF</color>
+    <color name="text_secondary">#B9B1D9</color>
+    <color name="text_muted">#81799F</color>
+
+    <color name="aurora_pink">#FF7AB6</color>
+    <color name="aurora_violet">#9B6CFF</color>
+    <color name="aurora_cyan">#6BE8FF</color>
+    <color name="aurora_blue">#5B8CFF</color>
+    <color name="online_green">#7CFFB2</color>
+
+    <color name="glass_stroke">#33FFFFFF</color>
+    <color name="glass_fill">#14FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
