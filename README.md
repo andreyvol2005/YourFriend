@@ -6,9 +6,9 @@
 
 <p align="center"><b>Тёплый собеседник, который всегда рядом</b></p>
 
-| Выбор друга | Знакомство | Разговор |
+| Выбор пола | Выбор имени | Тёплая беседа |
 |:---:|:---:|:---:|
-| [<img src="docs/screenshots/01-gender.png" width="250" alt="Экран выбора пола друга">](docs/screenshots/01-gender.png) | [<img src="docs/screenshots/02-name.png" width="250" alt="Экран выбора имени друга">](docs/screenshots/02-name.png) | [<img src="docs/screenshots/03-chat.png" width="250" alt="Экран тёплой беседы с другом">](docs/screenshots/03-chat.png) |
+| [<img src="docs/screenshots/01-gender.png" width="260" alt="Экран выбора пола друга">](docs/screenshots/01-gender.png) | [<img src="docs/screenshots/02-name.png" width="260" alt="Экран выбора имени друга">](docs/screenshots/02-name.png) | [<img src="docs/screenshots/03-chat.png" width="260" alt="Экран тёплой беседы с другом">](docs/screenshots/03-chat.png) |
 
 <p align="center">
   <img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 7.0+">
@@ -68,7 +68,7 @@
 ### Что понадобится
 
 - Android Studio с JDK 21 (или отдельный JDK 21);
-- Android SDK 36.1;
+- Android SDK 36 (compileSdk 36.1);
 - ключ GigaChat API.
 
 ### 1. Клонировать репозиторий
@@ -154,9 +154,9 @@ app/src/main/java/com/example/yourfriend/
     ├── TypingDotsView.kt
     └── ViewMagic.kt
 
-app/src/main/res/                # layout, drawable, themes, strings
-docs/screenshots/                # скриншоты для README
-tools/generate_launcher_icons.py # генератор растровых иконок
+app/src/main/res/                 # layout, drawable, themes, strings
+docs/screenshots/                 # скриншоты для README
+tools/generate_launcher_icons.py  # генератор растровых иконок
 ```
 
 ## Тесты
