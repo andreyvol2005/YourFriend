@@ -108,6 +108,12 @@ gradlew.bat :app:assembleDebug
 
 Готовый файл: `app/build/outputs/apk/debug/app-debug.apk`.
 
+Если телефон подключён по USB с включённой отладкой:
+
+```bash
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
 Для release-сборки добавьте свой `signingConfig` — в проекте его нет, чтобы не хранить keystore в репозитории.
 
 ## Приватность и безопасность
